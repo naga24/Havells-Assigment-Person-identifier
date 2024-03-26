@@ -26,11 +26,17 @@ After downloading, place model.h5 in base folder. Unzip and copy the "data" fold
 # Hyperparameters Used in training
 
 IMAGE_SIZE: (224, 224) - The dimensions to which input images are resized.
+
 BATCH_SIZE: 4 - The number of samples per batch during training.
+
 EPOCHS: 50 - The number of times the entire training dataset is passed forward and backward through the neural network.
+
 NUM_CLASSES: 2 - The number of classes in your dataset (used for classification).
+
 Additional hyperparameters can be inferred indirectly from the code
+
 Learning Rate: 1e-3 - Defined in the optimizer (Adam) as the learning rate parameter.
+
 Dropout : 0.5
 
 # Run Training
